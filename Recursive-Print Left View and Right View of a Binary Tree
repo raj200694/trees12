@@ -39,7 +39,7 @@ int main()
     return 0; 
 }
 
-For Right Viw everything same except these two lines.First recursively call for right subtree and then left subtree.
+For Right View everything same except these two lines.First recursively call for right subtree and then left subtree.
 leftViewUtil(root->left,level+1,max_level);
     leftViewUtil(root->right,level+1,max_level);
 
